@@ -1,0 +1,17 @@
+{
+	"ulid": "01HK24HT446KFV6VMDNKTM1CCC",
+	"minTime": 1704088804982,
+	"maxTime": 1704096000000,
+	"stats": {
+		"numSamples": 79060,
+		"numSeries": 1081,
+		"numChunks": 1081
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HK24HT446KFV6VMDNKTM1CCC"
+		]
+	},
+	"version": 1
+}

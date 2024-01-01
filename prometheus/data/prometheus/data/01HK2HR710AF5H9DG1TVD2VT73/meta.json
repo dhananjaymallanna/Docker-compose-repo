@@ -1,0 +1,17 @@
+{
+	"ulid": "01HK2HR710AF5H9DG1TVD2VT73",
+	"minTime": 1704103200386,
+	"maxTime": 1704110400000,
+	"stats": {
+		"numSamples": 63926,
+		"numSeries": 1081,
+		"numChunks": 1081
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HK2HR710AF5H9DG1TVD2VT73"
+		]
+	},
+	"version": 1
+}
