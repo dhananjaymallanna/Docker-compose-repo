@@ -1,2 +1,8 @@
-# System-Design-V2
+# I this repo i am creating the templates for using docker compose on your local machine, feel free to download these and use freely.
+
+# why docker-compose?
+1. As you are aware we tend to install a lot of softwares on our machine for local development, Instead we can use docker to our leverage and keep out laptop clean.
+2. this help us keep the development environment consistant across the team, so no more "works on my machine" things.
+3. faster and easier mean to setup the env
+4. code managed thing, so nothing can miss out.
  
