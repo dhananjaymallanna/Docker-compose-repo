@@ -1,4 +1,4 @@
-# I this repo i am creating the templates for using docker compose on your local machine, feel free to download these and use freely.
+# In this repo i am creating the templates for using docker compose on your local machine, feel free to download these and use freely.
 
 # why docker-compose?
 1. As you are aware we tend to install a lot of softwares on our machine for local development, Instead we can use docker to our leverage and keep out laptop clean.
