@@ -11,4 +11,6 @@
  2. install appropriate version the one and only software you need for setup
  3. verify that this is working
  4. download docker compose into a folder
- 5. | docker compose up 
+| docker compose up -- geting this up
+| docker compose down -- to bring down the containers
+| docker compose ps -- geting status of the containers running
