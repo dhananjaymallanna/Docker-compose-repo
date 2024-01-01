@@ -16,3 +16,4 @@ docker compose up -- geting this up
 docker compose down -- to bring down the containers
 docker compose ps -- geting status of the containers running
 ```
+![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230419174014/Docker-hub-registry.webp)
