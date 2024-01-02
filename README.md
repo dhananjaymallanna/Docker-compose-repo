@@ -12,8 +12,10 @@
  3. verify that this is working
  4. download docker compose into a folder
 ```
-docker compose up -- geting this up
+docker compose up -- getting all conatiner up - pull the images, read config and deploy on docker
 docker compose down -- to bring down the containers
 docker compose ps -- geting status of the containers running
+docker compose start -- start all containers
+docker compose stop -- start all containers
 ```
 ![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230419174014/Docker-hub-registry.webp)
