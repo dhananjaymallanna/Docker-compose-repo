@@ -26,10 +26,10 @@ mvn spring-boot:build-image
 
 ## Push image to Docker Registry
 
-goto <https://hub.docker.com> and register
-docker login -u username
-docker tag imagename:tagname username/imagename:tagname
-docker push username/imagename:tagname
+* goto <https://hub.docker.com> and register
+* docker login -u username
+* docker tag imagename:tagname username/imagename:tagname
+* docker push username/imagename:tagname
 
 ```md
 Note:: [INFO] Successfully built image 'docker.io/library/imagename:tagname'
