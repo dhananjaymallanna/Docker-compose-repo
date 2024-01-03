@@ -19,3 +19,34 @@ docker compose start -- start all containers
 docker compose stop -- start all containers
 ```
 ![Alt text](https://media.geeksforgeeks.org/wp-content/uploads/20230419174014/Docker-hub-registry.webp)
+
+# To build image from springboot
+
+mvn spring-boot:build-image
+
+## Push image to Docker Registry
+
+goto <https://hub.docker.com> and register
+docker login -u username
+docker tag imagename:tagname username/imagename:tagname
+docker push username/imagename:tagname
+
+```md
+Note:: [INFO] Successfully built image 'docker.io/library/imagename:tagname'
+```
+## Via Dockerfile
+```
+FROM ubuntu
+
+# install app dependencies
+RUN apt-get update && apt-get install -y python3 python3-pip
+RUN pip install flask==2.1.*
+
+# install app
+COPY hello.py /
+
+# final configuration
+ENV FLASK_APP=hello
+EXPOSE 8000
+CMD flask run --host 0.0.0.0 --port 8000
+```
